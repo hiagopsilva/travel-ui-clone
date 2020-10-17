@@ -1,3 +1,5 @@
+import { Colors } from '../utils/types';
+
 export default {
   Title: '#202336',
   Button: '#FB8F1D',
@@ -10,4 +12,4 @@ export default {
   backgroundFooter: '#F9F9FB',
   textSelect: '#4A4C53',
   borderSelect: '#AFB0B9',
-};
+} as Colors;
