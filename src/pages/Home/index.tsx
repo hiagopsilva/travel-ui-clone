@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../components/Button';
 import Welcome from '../../components/Welcome';
 
 import { Container } from './styles';
@@ -6,7 +7,7 @@ import { Container } from './styles';
 const Home: React.FC = () => {
   return (
     <Container>
-      <Welcome />
+      <Button text="Register" typeButton={false} />
     </Container>
   );
 };

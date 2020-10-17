@@ -8,5 +8,5 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  background: #7159c1;
+  /* background: #7159c1; */
 `;
